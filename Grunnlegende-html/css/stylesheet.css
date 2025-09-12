@@ -184,6 +184,15 @@ article{
 .age-check{
   display: flex;
   align-items: center;
+  gap: 1rem;
+  
 }
 
+
+footer{
+  background-color: #303030;
+  color: #fff;
+  padding: 1rem;
+  min-height: 150px;
+}
 
