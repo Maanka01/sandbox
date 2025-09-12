@@ -4,6 +4,11 @@
    }
 
 
+   *{
+    box-sizing: border-box;
+   }
+
+
 
 
 
@@ -72,12 +77,54 @@ a{
 /*HERO-section*/
 
 .deal-section{
+    background-image: url("https://picsum.photos/800/500?grayscale");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     background-color:var(--basic-grey);
     padding:1rem;
-}
+    position: relative;
+    height: 50vh;
+    min-height: 200px;
+    /*
+
+    img{
+        width:100%;
+
+    }
+    h2, p, a{
+      position: absolute;
+
+    }
+
+    p{
+      top: 63px;
+    }
+
+    a{
+      top: 160px;
+    }*/
+    }
 
 
 /* ========== HOVEDINNHOLD ========== */
+
+main{
+  max-width: 1200px;
+  width: 100%;
+  margin: 1rem auto;
+
+  section{
+    h2{
+      text-align: center;
+    }
+    article{
+      margin: 0 auto;
+    }
+  }
+
+}
+
 
 /*
   article: Kort/innholdsboks-oppsett.
@@ -116,6 +163,27 @@ article{
     color: #fff;                /* HVA: Høy kontrast for tilgjengelighet/lesbarhet. */
     padding: 1rem;  
     border: none;            /* HVA: Stor klikkflate og visuelt balansert knapp. */
+}
+
+.side-container{
+  background-color: var(--basic-grey);
+  padding: 1rem;
+
+  form{
+
+    input{
+      display: block;
+      padding: 1rem;
+      margin: 0.4rem 0; 
+    }
+
+  }
+
+}
+
+.age-check{
+  display: flex;
+  align-items: center;
 }
 
 
