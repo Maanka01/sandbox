@@ -1,16 +1,17 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
+   :root{
+    --basic-grey: #ccc5c5ef;
+    --basic-red: #6a0404;
+   }
 
 
 
-#mainlogo{
-    font-size: 30px;
-    font-family: arial;
-    font-weight: 900;
-    color: #000;
-    text-decoration: none;
-}
+
+
+
+
+
+
+
 
 
 
@@ -21,10 +22,27 @@ body{
 */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
 }
 
 
 /* ========== GLOBAL HEADER ========== */
+#global-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1;
+    nav{
+        ul{
+            padding:0;
+            margin:0;
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+        }
+    }
+}
 
 /*
   #mainlogo: Stil for hovedlogoen/merkenavnet som lenke.
@@ -48,6 +66,14 @@ body{
 a{
     color: #000;                /* HVA: Nøytral svart som standard lenkefarge. */
     text-decoration: none;      /* HVA: Fjerner understrek for renere typografi. */
+}
+
+
+/*HERO-section*/
+
+.deal-section{
+    background-color:var(--basic-grey);
+    padding:1rem;
 }
 
 
@@ -88,7 +114,8 @@ article{
     display: inline-block;      /* HVA: Tillater padding/bredde, men flyter i tekst. */
     background-color: #000;     /* HVA: Mørk bakgrunn gir klar kontrast mot hvit tekst. */
     color: #fff;                /* HVA: Høy kontrast for tilgjengelighet/lesbarhet. */
-    padding: 1rem;              /* HVA: Stor klikkflate og visuelt balansert knapp. */
+    padding: 1rem;  
+    border: none;            /* HVA: Stor klikkflate og visuelt balansert knapp. */
 }
 
 
