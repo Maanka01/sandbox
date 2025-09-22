@@ -16,7 +16,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     background-image: url("https://picsum.photos/200/300/?blur=2");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +25,7 @@ body{
     nav{
         ul{
             margin: 1rem 0;
-            border: 1px solid #efefef;
+            border: 1px solid #aaa7a7;
             padding: 1rem;
             li{
                 list-style: none;
