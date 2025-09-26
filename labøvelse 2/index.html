@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <title>Forside – Semantisk HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" id="mainlogo">LOGO</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="mal.html">Nettside mal</a></li>
+        <li><a href="ovelse.html">Labøvelse</a></li>
+        <li><a href="#contact">Kontakt oss</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <article>
+      <h3>Labøvelse</h3>
+    </article>
+    <article>
+      <h3>Kontakt oss</h3>
+    </article>
+    <article>
+      <h3>Mal</h3>
+    </article>
+  </main>
+
+  <!-- ASIDE -->
+  <aside>
+    <section>
+      <h4>Semantisk HTML</h4>
+      <ul>
+        <li><a href="https://web.dev/learn/html/semantic-html">web.dev – Semantic HTML</a></li>
+        <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools – Semantic Elements</a></li>
+        <li><a href="https://www.semrush.com/blog/semantic-html5-guide/">Semrush – Semantic HTML</a></li>
+        <li><a href="https://www.codecademy.com/resources/blog/semantic-html">Codecademy – Semantic HTML</a></li>
+        <li><a href="https://www.geeksforgeeks.org/html/html5-semantics/">Geeks for Geeks – Semantic HTML</a></li>
+      </ul>
+    </section>
+    <section>
+      <h4>Oversikt over SERP søk fra Google om semantisk HTML</h4>
+      <a class="google-btn" href="https://www.google.com/search?q=semantic+html">HTML SERP</a>
+    </section>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer>
+    <ul>
+      <li>Nora Nordmann</li>
+      <li>nora.nordmann@hiof.no</li>
+    </ul>
+
+    <form id="contact">
+      <label>
+        Navn:
+        <input type="text" placeholder="nora..." required>
+      </label>
+      <label>
+        E-post:
+        <input type="email" placeholder="nora.nordmann@hiof.no" required>
+      </label>
+      <label>
+        Emne:
+        <input type="text" placeholder="Spm om HTML?">
+      </label>
+      <label>
+        Melding:
+        <textarea placeholder="Skriv meldingen din her"></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </footer>
+
+</body>
+</html>
